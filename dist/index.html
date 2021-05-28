@@ -5,11 +5,118 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/style.css">
   <title>Resturant</title>
 </head>
 
 <body>
-  <div class="content">
+  <div id="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home">
+      <div>
+        <h1>Tasty Resturant</h1>
+        <small class="text-muted">Just like grandma used to make.</small>
+      </div>
+      <h3 class="font-weight-bolder">Opening Hours</h3>
+
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">Days</li>
+        <li class="list-group-item">Morning </li>
+        <li class="list-group-item">Evening</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-sm">
+        <li class="list-group-item">Monday</li>
+        <li class="list-group-item">7am - 12:00pm</li>
+        <li class="list-group-item">4:00pm - 10:00pm</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-md">
+        <li class="list-group-item">Tuesday</li>
+        <li class="list-group-item">10am - 2:00pm</li>
+        <li class="list-group-item">4:00pm - 10:00pm</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-lg">
+        <li class="list-group-item">Wednesday</li>
+        <li class="list-group-item">9am - 12:00pm</li>
+        <li class="list-group-item">2:00pm - 10:00pm</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-xl">
+        <li class="list-group-item">Saturday</li>
+        <li class="list-group-item">7am - 12:00pm</li>
+        <li class="list-group-item">1:00pm - 10:00pm</li>
+      </ul>
+    </div>
+
+    <div class="menu d-flex flex-wrap">
+      <div class="card">
+        <img src="..." class="card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact col-9 m-auto pt-5">
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+    </div>
   </div>
   <script src="bundle.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
