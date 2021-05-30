@@ -32,6 +32,6 @@ export default function homePage() {
         <li class="list-group-item">Saturday</li>
         <li class="list-group-item">7am - 12:00pm</li>
         <li class="list-group-item">1:00pm - 10:00pm</li>
-      </ul>`
+      </ul>`;
   return homeSection;
 }

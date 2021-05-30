@@ -40,6 +40,6 @@ export function headers() {
     item.addEventListener('click', () => {
       renderSection(item.dataset.target);
     });
-  })
+  });
   return navBar;
 }
