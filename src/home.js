@@ -1,6 +1,6 @@
 export function homePage() {
   let homeSection = document.createElement('div')
-  homeSection.classList.add('p-2', 'bg-dark')
+  homeSection.classList.add('p-3', 'm-3')
   homeSection.innerHTML = `
     <div>
       <h1>Tasty Resturant</h1>

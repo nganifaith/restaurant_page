@@ -1,12 +1,16 @@
 import { homePage } from './home';
+import { contactPage } from './contact';
+import { menuPage } from './menu'
 
 export const renderSection = section => {
   const divSection = document.getElementById('pageContent');
   divSection.innerHTML = '';
   if (section === 'home') {
     divSection.appendChild(homePage());
-  } else {
-    console.log('Hello')
+  } else if (section === 'contact') {
+    divSection.appendChild(contactPage());
+  } else if (section === 'menu') {
+    divSection.appendChild(menuPage());
   }
 }
 
