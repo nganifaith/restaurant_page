@@ -2,7 +2,7 @@ import './style.css';
 import { headers, renderSection } from './header';
 
 const content = document.getElementById('content');
-content.classList.add('h-100')
+content.classList.add('h-100');
 function render() {
   content.innerHTML = '';
   content.appendChild(headers());
