@@ -6,10 +6,10 @@ const content = document.getElementById('content');
 function render() {
   content.innerHTML = '';
   content.appendChild(headers());
-  let divSection = document.createElement('div');
+  const divSection = document.createElement('div');
   divSection.id = 'pageContent';
   content.appendChild(divSection);
-  renderSection('home')
+  renderSection('home');
 }
 
-render()
+render();

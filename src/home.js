@@ -1,6 +1,6 @@
-export function homePage() {
-  let homeSection = document.createElement('div')
-  homeSection.classList.add('p-3', 'm-3')
+export default function homePage() {
+  const homeSection = document.createElement('div');
+  homeSection.classList.add('p-3', 'm-3');
   homeSection.innerHTML = `
     <div>
       <h1>Tasty Resturant</h1>
@@ -33,5 +33,5 @@ export function homePage() {
         <li class="list-group-item">7am - 12:00pm</li>
         <li class="list-group-item">1:00pm - 10:00pm</li>
       </ul>`
-  return homeSection
+  return homeSection;
 }

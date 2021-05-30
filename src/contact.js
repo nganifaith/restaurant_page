@@ -1,5 +1,5 @@
-export function contactPage() {
-  let contactSection = document.createElement('div');
+export default function contactPage() {
+  const contactSection = document.createElement('div');
   contactSection.classList.add('col-9', 'm-auto', 'pt-5');
   contactSection.innerHTML = `
     <form>
@@ -19,5 +19,5 @@ export function contactPage() {
           <button class="btn btn-primary" type="submit">Send</button>
       </form>
   `;
-  return contactSection
+  return contactSection;
 }

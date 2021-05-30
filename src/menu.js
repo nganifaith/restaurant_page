@@ -1,5 +1,5 @@
-export function menuPage() {
-  let menuSection = document.createElement('div');
+export default function menuPage() {
+  const menuSection = document.createElement('div');
   menuSection.classList.add('d-flex', 'flex-wrap');
   menuSection.innerHTML = `
   <div class="card">
@@ -35,5 +35,5 @@ export function menuPage() {
         </div>
       </div>
   `;
-  return menuSection
+  return menuSection;
 }

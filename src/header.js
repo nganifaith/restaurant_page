@@ -1,8 +1,8 @@
-import { homePage } from './home';
-import { contactPage } from './contact';
-import { menuPage } from './menu'
+import homePage from './home';
+import contactPage from './contact';
+import menuPage from './menu';
 
-export const renderSection = section => {
+export const renderSection = (section) => {
   const divSection = document.getElementById('pageContent');
   divSection.innerHTML = '';
   if (section === 'home') {
@@ -12,10 +12,10 @@ export const renderSection = section => {
   } else if (section === 'menu') {
     divSection.appendChild(menuPage());
   }
-}
+};
 
 export function headers() {
-  let navBar = document.createElement('nav');
+  const navBar = document.createElement('nav');
   navBar.classList.add('navbar', 'navbar-expand-lg', 'navbar-light', 'bg-light');
   navBar.innerHTML = `
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,9 +36,9 @@ export function headers() {
   </div>
   `;
 
-  navBar.querySelectorAll('a').forEach(item => {
+  navBar.querySelectorAll('a').forEach((item) => {
     item.addEventListener('click', () => {
-      renderSection(item.dataset.target)
+      renderSection(item.dataset.target);
     });
   })
   return navBar;
