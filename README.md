@@ -44,8 +44,9 @@ Knowledge about JS:
 - $ cd restaurant_page
 
 
-[Live site](https://nganifaith.github.io/restaurant_page/)
 
+## Start App
+- run npm start in your command line
 
 ## Author
 
