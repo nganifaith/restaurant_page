@@ -1,4 +1,4 @@
-# library-app
+# Restaurant Page
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
 
@@ -33,16 +33,18 @@ Knowledge about JS:
 - JS injection
 - Knownledge of webpack
 
-## Setup
-- git clone:  [Github repo](https://github.com/nganifaith/library-app.git)
-- cd repo-folder OR
-- Open folder in your file explorer/finder
-- Start program by running live server Or
-- Click on the index.html file to open in your browser
+## Clone project
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with git clone https://github.com/nganifaith/restaurant_page using your terminal or command line.
+- Change to the project directory by entering: cd restaurant_page in the terminal.
+
+## Command line steps
+- $ git clone `$ git clone ttps://github.com/nganifaith/restaurant_page
+- $ git checkout feature
+- $ cd restaurant_page
 
 
-
-[Live site](https://nganifaith.github.io/library-app/)
+[Live site](https://nganifaith.github.io/restaurant_page/)
 
 
 ## Author
@@ -58,7 +60,7 @@ Knowledge about JS:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/nganifaith/library-app/issues).
+Feel free to check the [issues page](https://github.com/nganifaith/restaurant_page/issues).
 
 ## Show your support
 
